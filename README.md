@@ -2,7 +2,7 @@
 Multi-Specialty Hospital chain with locations all across the world. My hospital is famous for Vaccination. To split up the customers based on the country and load them into corresponding country tables.
 
 
-**tdd_unittest.py** - Contain test cases for 
+**tdd_unittest.py** - Test cases for 
 1. Source file existence
 2. Columns existence as required
 3. Snowflake connection
