@@ -1,0 +1,21 @@
+version: 2
+ 
+sources: 
+
+# TREEZ DATA TEMP
+  - name: customer_source
+    schema: public_intermediate_stg
+    database: HEALTHCARE_CUSTOMER_DATA
+    tables:
+      - name: customer
+        columns:
+          - name: CUSTOMER_NAME
+            tests:
+              - unique
+              - not_null
+          - name: CUSTOMER_ID
+            tests:
+              - not_null
+          - name: CUSTOMER_OPEN_DATE
+            tests:
+              - not_null
